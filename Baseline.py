@@ -7,7 +7,7 @@ class Baseline(nn.Module):
                 img_size,
                 emb_size,
                 in_channels = 1,
-                out_channels = 1,
+                out_channels = 2,
                 history = 1,
                 patch_size=16,
                 drop_path=0.1,
